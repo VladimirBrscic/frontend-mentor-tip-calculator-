@@ -1,0 +1,71 @@
+// colors
+
+$strong-cyan: hsl(172, 67%, 45%);
+$very-dark-cyan: hsl(183, 100%, 15%);
+$dark-grayish-cyan: hsl(186, 14%, 43%);
+$dark-grayish-cyan2: hsl(184, 14%, 56%);
+$light-grayish-cyan: hsl(185, 41%, 84%);
+$light-grayish-cyan2: hsl(189, 41%, 97%);
+$hovers: #9FE8DF;
+$white: hsl(0, 0%, 100%);
+
+
+
+$input-button-radius: 0.3rem;
+
+
+$section-spacer: 2rem;
+
+
+
+
+// Utilities
+
+.label-font{
+    font-size: 1rem;
+    font-weight: bold;
+    color: $dark-grayish-cyan;
+    margin-bottom: 0.8rem;
+
+    &-lighter{
+        font-size: 1rem;
+        font-weight: bold;
+        color: $dark-grayish-cyan2;
+    }
+    &-white{
+        font-size: 1rem;
+        font-weight: bold;
+        color: $white;
+    }
+    &-result{
+        font-size: 2rem;
+        font-weight: bold;
+        color: $strong-cyan;
+    }
+}
+
+
+.input-group{
+    background-color: $light-grayish-cyan;
+    border-radius: $input-button-radius;
+    position: relative;
+
+    img{
+      position: absolute;
+      margin: 0.8rem 0 0 1rem;
+    }
+}
+
+.basic-input-style{
+    color: $very-dark-cyan;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    text-align: right;
+    background-color: $light-grayish-cyan2;
+    outline-color:$very-dark-cyan;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+}
